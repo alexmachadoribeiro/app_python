@@ -11,8 +11,6 @@ if __name__ == "__main__":
 
     msg_commit = input("Informe a mensagem do commit: ")
 
-    # p.hotkey("ctrl", "j")
-
     limpar_credenciais()
 
     p.write('git config --global user.name "alexmachadoribeiro"')
